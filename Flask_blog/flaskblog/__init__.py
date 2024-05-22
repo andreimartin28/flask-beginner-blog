@@ -7,10 +7,10 @@ from flask_login import LoginManager
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'd57424e55c6536c6f55d8a28c44849eb'
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///site.db"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.json.sort_keys = False
+app.config['SECRET_KEY'] = ''
+app.config['SQLALCHEMY_DATABASE_URI'] = ""
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 
+app.json.sort_keys = 
 
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
