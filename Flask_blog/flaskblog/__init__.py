@@ -9,7 +9,7 @@ from flask_login import LoginManager
 app = Flask(__name__)
 app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_DATABASE_URI'] = ""
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = 
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] =
 app.json.sort_keys = 
 
 db = SQLAlchemy(app)
